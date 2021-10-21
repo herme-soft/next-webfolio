@@ -22,7 +22,7 @@ export default function Hire() {
             <Head>
                 <title>Hire</title>
                 <meta name="description" content="Hire, Contact" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon.png" />
             </Head>
 
             <motion.div

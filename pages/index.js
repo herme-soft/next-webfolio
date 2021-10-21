@@ -22,7 +22,7 @@ export default function Home() {
       <Head>
         <title>FullStack.Dev</title>
         <meta name="description" content="Front End, Back End and Fullstack Developers" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon.png" />
       </Head>
 
       <motion.div 

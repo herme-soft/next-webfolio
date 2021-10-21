@@ -27,7 +27,7 @@ export default function Projects() {
             <Head>
                 <title>Projects</title>
                 <meta name="description" content="Portfolio, Projects" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon.png" />
             </Head>
 
             <motion.div 
