@@ -37,7 +37,7 @@ export default function Projects() {
                 variants={ pageTransition }>
                     
                 <section className="projects">
-                    <div className="grid grid-cols-1 gap-5 px-5 py-20 bg-crimsonDark sm:grid-cols-2 lg:grid-cols-3 lg:h-screen lg:pt-32">
+                    <div className="grid grid-cols-1 gap-5 px-5 py-20 bg-crimsonDark sm:grid-cols-2 lg:grid-cols-3 lg:h-screen lg:pt-32 md:pt-30">
                         {items.map((item) => {
                             const {path, desc} = item
                             

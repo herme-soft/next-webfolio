@@ -34,8 +34,8 @@ export default function Hire() {
                 <section className="showcase">
                     <div className="flex flex-col items-center justify-center content">
                         <div className="flex flex-col w-9/12 lg:flex-row sm:flex-row lg:w-auto">
-                            <div className="hidden pt-4 bg-opacity-50 rounded lg:py-10 lg:pt-32 bg-crimson lg:px-5 lg:block">
-                                <h2 className="mb-5 text-5xl font-semibold text-center text-white lg:text-7xl">Hire a dev</h2>
+                            <div className="hidden pt-4 bg-opacity-50 rounded lg:py-10 lg:pt-32 bg-crimson lg:px-5 lg:block md:block md:p-3">
+                                <h2 className="mb-5 text-5xl font-semibold text-center text-white lg:text-7xl md:text-4xl">Hire a dev</h2>
                                 <p className="mb-5 font-semibold text-center text-white text-md lg:text-4xl">Replies whithin 24 hours</p>
                             </div>
 

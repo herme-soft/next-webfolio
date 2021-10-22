@@ -33,14 +33,14 @@ export default function Home() {
 
           <section className="showcase">
             <div className="flex flex-col items-center justify-center px-5 text-white content">
-                <h1 className="mb-10 font-sans text-5xl font-semibold text-right lg:text-center lg:text-7xl lg:px-56 Chonburi">We create <span className="text-crimson">brand awarness</span> tailored to your business</h1>
+                <h1 className="mb-10 font-sans text-5xl font-semibold text-right lg:text-center md:text-center lg:text-7xl lg:px-56 Chonburi">We create <span className="text-crimson">brand awarness</span> tailored to your business</h1>
 
-              <div className="ml-auto lg:ml-0">
+              <div className="ml-auto lg:ml-auto md:mx-auto">
                   <Link href="/hire">
                       <a className="p-2 px-4 mr-5 font-semibold transition-all rounded-full bg-crimson hover:bg-crimsonDark">Get Strated</a>
                   </Link>
                   <Link href="/projects">
-                      <a className="p-2 px-4 mr-5 font-semibold transition-all bg-white rounded-full text-crimson hover:bg-crimsonDark hover:text-white">Projects</a>
+                      <a className="p-2 px-4 font-semibold transition-all bg-white rounded-full text-crimson hover:bg-crimsonDark hover:text-white">Projects</a>
                   </Link>
               </div>
             </div>
