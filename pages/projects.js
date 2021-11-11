@@ -53,9 +53,9 @@ export default function Projects() {
                                 const {path, desc} = item
                                 
                                 return (
-                                    <Link href={path}>
+                                    <Link key={uuidv4()} href={path}>
                                         <a>
-                                            <div key={uuidv4()}>
+                                            <div>
                                                 <img src={path} alt={desc} className="p-5 rounded bg-crimson hover:translate-y-11" />
                                                 <small className="block text-lg font-semibold text-center text-white">{desc}</small>
                                             </div>
